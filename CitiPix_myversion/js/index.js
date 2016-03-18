@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-//get input from the user, from #submit-btn? input via submit value
+//get input from the user upon submission 
 $("form").submit(function(e){
 	//prevent form sending to server and page reload
 	e.preventDefault();
